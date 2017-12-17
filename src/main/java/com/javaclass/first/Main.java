@@ -1,3 +1,5 @@
+package com.javaclass.first;
+
 class Main {
 
     /**
