@@ -13,10 +13,12 @@ public class First { // This is example of one line comment.
     // Example of code before the comment and the comment after the code:
     int x = 0; // Another single line comment: int x = 0;
 
-    int number; // Default value is 0.
+    int number;                // Default value is 0.
+    Integer numberClazz;       // We got null!
 
     public static void main(String[] args) {
         First first = new First();
         System.out.println("variable 'number': " + first.number);
+        System.out.println("variable 'numberClazz': " + first.numberClazz);
     }
 }
